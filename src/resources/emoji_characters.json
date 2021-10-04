@@ -1,0 +1,30 @@
+{
+    "EMOJI_CHARACTERS": {
+        "a": "🇦",
+        "b": "🇧",
+        "c": "🇨",
+        "d": "🇩",
+        "e": "🇪",
+        "f": "🇫",
+        "g": "🇬",
+        "h": "🇭",
+        "i": "🇮",
+        "j": "🇯",
+        "k": "\ud83c\uddf0",
+        "l": "\ud83c\uddf1",
+        "m": "\ud83c\uddf2",
+        "n": "\ud83c\uddf3",
+        "o": "\ud83c\uddf4",
+        "p": "\ud83c\uddf5",
+        "q": "\ud83c\uddf6",
+        "r": "\ud83c\uddf7",
+        "s": "\ud83c\uddf8",
+        "t": "\ud83c\uddf9",
+        "u": "\ud83c\uddfa",
+        "v": "\ud83c\uddfb",
+        "w": "\ud83c\uddfc",
+        "x": "\ud83c\uddfd",
+        "y": "\ud83c\uddfe",
+        "z": "\ud83c\uddff"
+    }
+}

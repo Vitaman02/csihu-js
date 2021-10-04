@@ -1,0 +1,6 @@
+# Packages
+node_modules/
+
+# Hide resources
+src/resources/config.json
+src/resources/zoom.json
