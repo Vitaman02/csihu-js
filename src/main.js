@@ -4,10 +4,12 @@ const { Client, Collection, Intents } = require("discord.js");
 const { token } = require("./resources/config.json");
 
 // Create client instance
-const client = new Client({ intents: [
-    Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MEMBERS,
-    Intents.FLAGS.GUILD_VOICE_STATES, Intents.FLAGS.GUILD_PRESENCES
-] });
+const client = new Client({
+    intents: [
+        Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MEMBERS,
+        Intents.FLAGS.GUILD_VOICE_STATES, Intents.FLAGS.GUILD_PRESENCES
+    ]
+});
 
 client.commands = new Collection();
 const commandFiles = fs.readdirSync('src/commands').filter(file => file.endsWith('.js'));

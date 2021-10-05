@@ -3,10 +3,10 @@ const { SlashCommandBuilder } = require("@discordjs/builders");
 
 // Handle the interaction
 async function handle(interaction) {
+    // Get mention member's color
     const member = interaction.options.get("member").member;
-    const roles = member.roles;
-    console.log(roles);
-    await interaction.reply({ content: `${member}` });
+    const color = member.displayHexColor;
+    await interaction.reply(`${member}'s color in hex is: ${color}`);
 }
 
 

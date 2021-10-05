@@ -15,8 +15,7 @@ async function handle(interaction) {
 
     // Iterate over the members and create output text
     out = [];
-    for (iterMember of voiceMembers) {
-        const id = iterMember[0];
+    for (const iterMember of voiceMembers) {
         const member = iterMember[1];
         if (member.id == interaction.member.id) {
             continue;

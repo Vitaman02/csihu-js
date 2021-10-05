@@ -7,7 +7,7 @@ async function handle(interaction) {
     const text = String(interaction.options.getString("text")).toLowerCase();
     let out = "";
     const chars = [];
-    for (char of text) {
+    for (const char of text) {
         if (char in EMOJI_CHARACTERS) {
             chars.push(EMOJI_CHARACTERS[char]);
         } else {
